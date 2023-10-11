@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "The Ethnic Cleansing of Palestine (2006)"
+  author: "Ilan Pappe"
+  cover-image: pappe_2006.jpeg
+  date: 09-07-2006
+  chapters:
+    - index.qmd
+    - ch01-Alleged-Ethnic-Cleansing.qmd
+    - ch02-Exclusively-Jewish-State.qmd
+    - ch03-Partition-and-Destruction.qmd
+    - ch04-Finalising-Master-Plan.qmd
+    - ch05-Plan-Dalet.qmd
+    - ch06-Phony-War-Real-War.qmd
+    - ch07-Escalation.qmd
+    - ch08-Completing-the-Job.qmd
+    - ch09-Occupation.qmd
+    - ch10-Memoricide.qmd
+    - ch11-Nakba-Denial.qmd
+    - ch12-Fortress-Israel.qmd
+    - epilogue.qmd
+    - endnotes.qmd
+    - references.qmd
+  appendices:
+    - app01-Chronology.qmd
+    - app02-Maps-and-Tables.qmd
+
+bibliography: Ethnic_Cleansing_of_Palestine.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+
